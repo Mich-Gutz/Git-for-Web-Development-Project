@@ -38,17 +38,29 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     33. How do I remove a file via the command line? Why do I have to be careful with this? rf, you don't get a notification about being sure to delete.
     34. Why should I use version control? It helps you  manage changes to a source code over time tracking every change made by contributors.
     35. How often should I commit to github? around a couple of times every hour or when you add a feature worth commiting.
-    36. What is the command we would use to push our repo up to github?  git commit -m
+    36. What is the command we would use to push our repo up to github?  git push origin -u
     37. Walk me through Lambda's git flow. 
+    -fork the repo
+    -clone and download to terminal using the link
+    -branch off to create the changes under your name
+    -commit often to save your work as  a check point with the commit command  git add --all to add all changes , then, git commit -m
+    -push the changes with the special command  git push origin -u
+    -submit pull request on github
+
+     
+    -
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    1. What is the difference between an inline element and a block element? in line elements are written within the same text line and only take the necessary space. block elements stretch as far as needed and always start in a new line.
+    2. What happens when an element is positioned absolutely? element positioned relative to nearest positioned ancesetor, follows a set element.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? set the appropiate padding and height
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. <div><section><footer><h1>  <span><img><a>   <li>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
-
+A refference tool used to organize and form the layout of the page according to the elements specific properties. Box-sizing:border-box  =  /* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+We can use this little formula line that applies properties to all the elements.
 
    --> 
