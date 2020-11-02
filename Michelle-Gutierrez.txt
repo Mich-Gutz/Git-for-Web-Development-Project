@@ -1,7 +1,7 @@
+https://codepen.io/michgutz/pen/JjKLbog
+
 Michelle-Gutierrez.txt
-<!-- Questions to Submit in today's file first-lastname.txt --> 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
 
     1. What is Semantic HTML? Tags with meaning to better describe our code, they give meaning to our web page.
     2. What is HTML used for? It's the markup language we use for web development, it displays data in graphical form.
