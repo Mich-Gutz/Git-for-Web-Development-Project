@@ -46,6 +46,7 @@ Michelle-Gutierrez.txt
     -commit often to save your work as  a check point with the commit command  git add --all to add all changes , then, git commit -m
     -push the changes with the special command  git push origin -u
     -submit pull request on github
+    -merge your repo
 
      
     -
@@ -59,7 +60,7 @@ Stretch Questions
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 A refference tool used to organize and form the layout of the page according to the elements specific properties. Box-sizing:border-box  =  /* apply a natural box layout model to all elements */
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 We can use this little formula line that applies properties to all the elements.
 
